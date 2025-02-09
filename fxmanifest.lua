@@ -13,27 +13,17 @@ PowerdBy 'Onex Scripts'
 fx_version 'cerulean'
 game 'gta5'
 version '0.0.1'
+this_is_a_map 'yes'
 -- ====================  Resource UI  ========================================================
-files {'propsets.meta', 'conditionalanims.meta'}
+files {'conditionalanims.meta'}
 -- ==================== Resource Configuration ===============================================
-shared_scripts {'locales.lua' , 'AnimList.lua'}
-client_scripts {'client/client.lua'}
+shared_scripts {'locales.lua', 'client/client.lua', 'client/locales/*.lua', 'AnimList.lua'}
 dependencies {'/server:7290', '/onesync'}
 
---[[
-                     README !
-    --================================================
-     Loads all ytyp files for custom props to stream
-     You will need to add a data_file 'DLC_ITYP_REQUEST' for your own to work in game
-    --================================================
-]]
-
-data_file 'AMBIENT_PROP_MODEL_SET_FILE' 'propsets.meta'
-data_file 'CONDITIONAL_ANIMS_FILE' 'conditionalanims.meta'
-data_file 'DLC_ITYP_REQUEST' 'stream/taymckenzienz_rpemotes.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/rpemotesreborn_props.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/brummie_props.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_props.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'bzzz_camp_props.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_camp_props.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/apple_1.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/kaykaymods_props.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/knjgh_pizzas.ytyp'
@@ -42,6 +32,10 @@ data_file 'DLC_ITYP_REQUEST' 'stream/ultra_ringcase.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/pata_props.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/vedere_props.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'stream/pnwsigns.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/pprp_icefishing.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/scully_props.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/samnick_prop_lighter01.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_murderpack.ytyp'
 
 -- ==================== Resource Code Configuration  =============================================
 lua54 'yes'
