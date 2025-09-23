@@ -75,8 +75,7 @@ local function LoadEmotesData()
                     emote.originalCategory = category
                     table.insert(emotesData.all_emotes, emote)
                 end
-            elseif category ~= "all_emotes" then
-                -- For direct arrays (expressions, scenarios, walks_styles)
+            elseif category ~= "all_emotes" and category ~= "exit" then
                 for _, item in pairs(data) do
                     item.originalCategory = category
                     table.insert(emotesData.all_emotes, item)
