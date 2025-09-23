@@ -1,6 +1,4 @@
 return {
-    name = 'Prop Emotes',
-    options = {
         {
             Label = 'Airport Bag',
             Command = 'airportbag',
@@ -8876,4 +8874,3 @@ return {
             },
         }
     }
-}

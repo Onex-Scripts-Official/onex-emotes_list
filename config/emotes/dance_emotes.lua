@@ -1,6 +1,4 @@
 return {
-    name = 'Dance Emotes',
-    options = {
         {
             Label = 'Dance',
             Command = 'dance',
@@ -18504,4 +18502,3 @@ return {
             },
         },
     }
-}

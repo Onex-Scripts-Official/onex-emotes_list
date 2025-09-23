@@ -1,6 +1,4 @@
 return {
-    name = 'General Emotes',
-    options = {
         {
             Label = 'Adjust',
             Command = 'adjust',
@@ -5618,4 +5616,3 @@ return {
             },
         }
     }
-}
