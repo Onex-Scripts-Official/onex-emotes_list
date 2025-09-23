@@ -14,10 +14,10 @@ local function LoadEmotesData()
         emotesData.scenarios = load(emotesData.scenarios)()
     end
     
-    -- Load walks_styles
-    emotesData.walks_styles = LoadResourceFile(GetCurrentResourceName(), 'config/walks.lua')
-    if emotesData.walks_styles then
-        emotesData.walks_styles = load(emotesData.walks_styles)()
+    -- Load walk_styles
+    emotesData.walk_styles = LoadResourceFile(GetCurrentResourceName(), 'config/walks.lua')
+    if emotesData.walk_styles then
+        emotesData.walk_styles = load(emotesData.walk_styles)()
     end
     
     -- Load general emotes
@@ -29,7 +29,7 @@ local function LoadEmotesData()
     -- Load dance emotes
     local danceEmotes = LoadResourceFile(GetCurrentResourceName(), 'config/emotes/dance_emotes.lua')
     if danceEmotes then
-        emotesData.dance = load(danceEmotes)()
+        emotesData.dance_emotes = load(danceEmotes)()
     end
 
     -- Load animal emotes
@@ -85,7 +85,7 @@ local function LoadEmotesData()
     end
 
     -- shared dance init 
-    emotesData.shared_dances = emotesData.dance
+    emotesData.shared_dances = emotesData.dance_emotes
 
     return true
 end
