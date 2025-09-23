@@ -31,7 +31,7 @@ local function LoadEmotesData()
     if danceEmotes then
         emotesData.dance = load(danceEmotes)()
     end
-    
+
     -- Load animal emotes
     local animalEmotes = LoadResourceFile(GetCurrentResourceName(), 'config/emotes/animal_emotes.lua')
     if animalEmotes then
@@ -82,6 +82,9 @@ local function LoadEmotesData()
             end
         end
     end
+
+    -- shared dance init 
+    emotesData.shared_dances = emotesData.dance
 
     return true
 end
