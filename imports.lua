@@ -53,13 +53,13 @@ local function LoadEmotesData()
     -- Load prop emotes
     local propEmotes = LoadResourceFile(GetCurrentResourceName(), 'config/emotes/prop_emotes.lua')
     if propEmotes then
-        emotesData.prop = load(propEmotes)()
+        emotesData.prop_emotes = load(propEmotes)()
     end
     
     -- Load shared emotes
     local sharedEmotes = LoadResourceFile(GetCurrentResourceName(), 'config/emotes/shared_emotes.lua')
     if sharedEmotes then
-        emotesData.shared = load(sharedEmotes)()
+        emotesData.shared_emotes = load(sharedEmotes)()
     end
 
     -- All Emotes 
@@ -72,11 +72,13 @@ local function LoadEmotesData()
             if data.options then
                 -- For emote categories with options structure (general, dance, etc.)
                 for _, emote in pairs(data.options) do
+                    emote.originalCategory = category
                     table.insert(emotesData.all_emotes, emote)
                 end
             elseif category ~= "all_emotes" then
                 -- For direct arrays (expressions, scenarios, walks_styles)
                 for _, item in pairs(data) do
+                    item.originalCategory = category
                     table.insert(emotesData.all_emotes, item)
                 end
             end
