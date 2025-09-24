@@ -16,8 +16,24 @@ local Emotes = {
 
 -- Load all emote configuration files
 local function LoadEmotesData()
-    -- All Emotes 
+    -- All Emotes - combine all emote categories except expressions, scenarios, and walk_styles
     Emotes.all_emotes = {}
+
+    -- Categories to exclude from all_emotes
+    local excludeCategories = {
+        exits = true,
+        all_emotes = true,
+        shared_dances = true
+    }
+
+    -- Combine all emote categories into all_emotes
+    for categoryName, categoryData in pairs(Emotes) do
+        if not excludeCategories[categoryName] and type(categoryData) == 'table' then
+            for emoteName, emoteData in pairs(categoryData) do
+                Emotes.all_emotes[emoteName] = emoteData
+            end
+        end
+    end
 
     -- shared dance init
     Emotes.shared_dances = Emotes.dance_emotes
