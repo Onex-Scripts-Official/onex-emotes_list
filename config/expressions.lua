@@ -1,4 +1,4 @@
-﻿expressions = {
+expressions = {
     aiming = {
         label = 'Aiming',
         expression = 'mood_aiming_1'

@@ -1,4 +1,4 @@
-﻿scenarios = {
+scenarios = {
     -- Scenario Name
     -- label = 'Label for Menu',
     -- scenario = 'SCENARIO_NAME_HERE'

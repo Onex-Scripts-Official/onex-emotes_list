@@ -1,4 +1,4 @@
-﻿walk_styles = {
+walk_styles = {
     alien = {
         label = 'Alien',
         walk = 'move_m@alien'
