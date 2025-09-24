@@ -47,7 +47,7 @@ local function LoadEmotesData()
     -- Load exit emotes
     local exitEmotes = LoadResourceFile(GetCurrentResourceName(), 'config/emotes/exit_emotes.lua')
     if exitEmotes then
-        emotesData.exit = load(exitEmotes)()
+        emotesData.exits = load(exitEmotes)()
     end
     
     -- Load prop emotes
@@ -75,7 +75,7 @@ local function LoadEmotesData()
                     emote.originalCategory = category
                     table.insert(emotesData.all_emotes, emote)
                 end
-            elseif category ~= "all_emotes" and category ~= "exit" then
+            elseif category ~= "all_emotes" and category ~= "exits" then
                 for _, item in pairs(data) do
                     item.originalCategory = category
                     table.insert(emotesData.all_emotes, item)
@@ -102,6 +102,15 @@ exports('RetrieveEmotes', function()
     return emotesData
 end)
 
+exports('GetScenarioModels', function()
+
+      local scenario_models = LoadResourceFile(GetCurrentResourceName(), 'config/scenario_models.lua')
+    if scenario_models then
+        return load(scenario_models)()
+    end
+    
+    return false
+end)
 -- -- Get expressions only
 -- exports('GetExpressions', function()
 --     return emotesData.expressions or {}
