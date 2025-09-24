@@ -1,8 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(copy:*)",
-      "Bash(powershell:*)"
+      "Bash(grep:*)",
+      "Read(//d//**)"
     ],
     "deny": [],
     "ask": []
