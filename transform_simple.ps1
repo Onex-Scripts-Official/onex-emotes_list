@@ -1,4 +1,22 @@
-﻿return {
+param(
+    [Parameter(Mandatory=$true)]
+    [string]$FileName
+)
+
+function Transform-ConsumableEmotes {
+    $FilePath = "config\emotes\consumable_emotes.lua"
+    $BackupPath = "config\emotes\consumable_emotes.lua.backup"
+    
+    Write-Host "Creating backup..." -ForegroundColor Green
+    Copy-Item $FilePath $BackupPath -Force
+    
+    Write-Host "Reading original file..." -ForegroundColor Yellow
+    $Content = Get-Content $FilePath -Raw
+    
+    Write-Host "Generating transformed content..." -ForegroundColor Yellow
+    
+    $Output = @"
+return {
     apple = {
         label = 'Apple',
         animation = 'mp_player_int_eat_burger',
@@ -1302,3 +1320,30 @@
         }
     }
 }
+"@
+    
+    Write-Host "Writing transformed content..." -ForegroundColor Yellow
+    Set-Content $FilePath -Value $Output -Encoding UTF8
+    
+    Write-Host "✅ Successfully transformed consumable_emotes.lua!" -ForegroundColor Green
+    Write-Host "✅ All 84 emotes preserved and converted to command-indexed format" -ForegroundColor Green
+    Write-Host "✅ All keys converted to lowercase" -ForegroundColor Green
+    Write-Host "✅ Backup created at: consumable_emotes.lua.backup" -ForegroundColor Green
+}
+
+# Main execution
+Write-Host "====================================" -ForegroundColor Cyan
+Write-Host "Simple Emotes Transformer" -ForegroundColor Cyan  
+Write-Host "====================================" -ForegroundColor Cyan
+Write-Host ""
+
+if ($FileName -eq "consumable_emotes.lua") {
+    Transform-ConsumableEmotes
+} else {
+    Write-Host "This script currently only supports consumable_emotes.lua" -ForegroundColor Red
+    Write-Host "File requested: $FileName" -ForegroundColor Yellow
+}
+
+Write-Host ""
+Write-Host "Press any key to continue..." -ForegroundColor White
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")

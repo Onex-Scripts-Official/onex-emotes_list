@@ -1,118 +1,118 @@
 return {
     ['getup'] = {
-        Animation = 'getup_0',
-        Dictionary = 'get_up@sat_on_floor@to_stand',
-        Options = {
-            Duration = 2000,
-            Delay = 600,
+        animation = 'getup_0',
+        dictionary = 'get_up@sat_on_floor@to_stand',
+        options = {
+            duration = 2000,
+            delay = 600,
         },
     },
     ['getup2'] = {
-        Animation = 'getup_a',
-        Dictionary = 'anim@scripted@aoa@ship_climb@male@',
-        Options = {
-            Delay = 600,
+        animation = 'getup_a',
+        dictionary = 'anim@scripted@aoa@ship_climb@male@',
+        options = {
+            delay = 600,
         },
     },
     ['meditateup'] = {
-        Animation = 'meditate_getup',
-        Dictionary = 'rcmcollect_paperleadinout@',
-        Options = {
-            Duration = 2000,
+        animation = 'meditate_getup',
+        dictionary = 'rcmcollect_paperleadinout@',
+        options = {
+            duration = 2000,
         },
     },
     ['standup'] = {
-        Animation = 'getup_l_0',
-        Dictionary = 'get_up@directional@movement@from_knees@injured',
-        Options = {
-            Duration = 2000,
-            Delay = 600,
+        animation = 'getup_l_0',
+        dictionary = 'get_up@directional@movement@from_knees@injured',
+        options = {
+            duration = 2000,
+            delay = 600,
         },
     },
     ['surrender_exit'] = {
-        Animation = 'kneeling_arrest_get_up',
-        Dictionary = 'random@arrests',
-        Options = {
-            Duration = 2200,
+        animation = 'kneeling_arrest_get_up',
+        dictionary = 'random@arrests',
+        options = {
+            duration = 2200,
         },
     },
     ['offchair'] = {
-        Animation = 'exit_forward',
-        Dictionary = 'switch@michael@sitting',
-        Options = {
-            Duration = 1000,
+        animation = 'exit_forward',
+        dictionary = 'switch@michael@sitting',
+        options = {
+            duration = 1000,
         },
     },
     ['offtable'] = {
-        Animation = 'look_around_01_amy_skater_01',
-        Dictionary = 'anim@amb@board_room@diagram_blueprints@',
-        Options = {
-            Duration = 5700,
+        animation = 'look_around_01_amy_skater_01',
+        dictionary = 'anim@amb@board_room@diagram_blueprints@',
+        options = {
+            duration = 5700,
         },
     },
     ['phoneaway'] = {
-        Animation = 'exit',
-        Dictionary = 'amb@world_human_stand_mobile@male@text@exit',
-        Options = {
-            Duration = 1780,
-            Delay = 1150,
-            Flags = {
-                Move = true,
+        animation = 'exit',
+        dictionary = 'amb@world_human_stand_mobile@male@text@exit',
+        options = {
+            duration = 1780,
+            delay = 1150,
+            flags = {
+                move = true,
             },
         },
     },
     ['uncuff_front'] = {
-        Animation = 'a_uncuff',
-        Dictionary = 'mp_arresting',
-        Options = {
-            Duration = 6099,
-            Delay = 450,
-            Flags = {
-                Move = true,
+        animation = 'a_uncuff',
+        dictionary = 'mp_arresting',
+        options = {
+            duration = 6099,
+            delay = 450,
+            flags = {
+                move = true,
             },
         },
     },
     ['uncuff_back'] = {
-        Animation = 'b_uncuff',
-        Dictionary = 'mp_arresting',
-        Options = {
-            Duration = 6099,
-            Delay = 450,
-            Flags = {
-                Move = true,
+        animation = 'b_uncuff',
+        dictionary = 'mp_arresting',
+        options = {
+            duration = 6099,
+            delay = 450,
+            flags = {
+                move = true,
             },
         },
     },
     ['shakeitoffhuman'] = {
-        Animation = 'shakeoff_1',
-        Dictionary = 'move_m@_idles@shake_off',
-        Options = {
-            Duration = 2899,
-            Delay = 850,
-            Flags = {
-                Move = true,
+        animation = 'shakeoff_1',
+        dictionary = 'move_m@_idles@shake_off',
+        options = {
+            duration = 2899,
+            delay = 850,
+            flags = {
+                move = true,
             },
         },
     },
     ['sdogup'] = {
-        Animation = 'exit',
-        Dictionary = 'creatures@pug@amb@world_dog_sitting@exit',
-        Options = {
-            Duration = 1000,
+        animation = 'exit',
+        dictionary = 'creatures@pug@amb@world_dog_sitting@exit',
+        options = {
+            duration = 1000,
         },
     },
     ['bdogup'] = {
-        Animation = 'exit',
-        Dictionary = 'creatures@rottweiler@amb@world_dog_sitting@exit',
-        Options = {
-            Duration = 1000,
+        animation = 'exit',
+        dictionary = 'creatures@rottweiler@amb@world_dog_sitting@exit',
+        options = {
+            duration = 1000,
         },
     },
     ['bdogupk'] = {
-        Animation = 'exit_kennel',
-        Dictionary = 'creatures@rottweiler@amb@sleep_in_kennel@',
-        Options = {
-            Duration = 5000,
+        animation = 'exit_kennel',
+        dictionary = 'creatures@rottweiler@amb@sleep_in_kennel@',
+        options = {
+            duration = 5000,
         },
     },
 }
