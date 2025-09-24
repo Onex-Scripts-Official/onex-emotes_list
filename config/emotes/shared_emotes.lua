@@ -1,4 +1,4 @@
-return {
+shared_emotes = {
     carried3 = {
         label = 'Carried 3',
         animation = 'couplepose2cmg_clip',

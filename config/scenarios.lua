@@ -1,4 +1,7 @@
-﻿return {
+﻿scenarios = {
+    -- Scenario Name
+    -- label = 'Label for Menu',
+    -- scenario = 'SCENARIO_NAME_HERE'
     atm = {
         label = 'ATM',
         scenario = 'PROP_HUMAN_ATM'

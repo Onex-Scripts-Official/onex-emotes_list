@@ -1,4 +1,4 @@
-return {
+scenario_models = {
     `p_amb_coffeecup_01`,
     `p_amb_joint_01`,
     `p_cs_ciggy_01`,

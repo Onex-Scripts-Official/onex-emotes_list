@@ -1,4 +1,4 @@
-return {
+dance_emotes = {
     dance = {
         label = 'Dance',
         animation = 'hi_dance_facedj_15_v1_male^6',

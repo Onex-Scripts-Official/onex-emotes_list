@@ -1,4 +1,4 @@
-return {
+animal_emotes = {
     bdogbark = {
         label = 'Bark (big dog)',
         animation = 'idle_a',

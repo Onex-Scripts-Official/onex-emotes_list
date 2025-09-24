@@ -1,4 +1,4 @@
-return {
+prop_emotes = {
     airportbag = {
         label = 'Airport Bag',
         animation = 'idle',

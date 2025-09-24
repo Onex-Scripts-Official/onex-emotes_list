@@ -1,4 +1,4 @@
-﻿return {
+﻿consumable = {
     apple = {
         label = 'Apple',
         animation = 'mp_player_int_eat_burger',

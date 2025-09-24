@@ -1,4 +1,4 @@
-return {
+general = {
     adjust = {
         label = 'Adjust',
         animation = 'michael_tux_fidget',
