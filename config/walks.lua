@@ -1,672 +1,534 @@
-return {
-    {
-        Label = 'Alien',
-        Command = 'alien',
-        Walk = 'move_m@alien',
-    },
-    {
-        Label = 'Armored',
-        Command = 'armored',
-        Walk = 'anim_group_move_ballistic',
-    },
-    {
-        Label = 'Arrogant',
-        Command = 'arrogant',
-        Walk = 'move_f@arrogant@a',
-    }, 
-    {
-        Label = 'Brave',
-        Command = 'brave',
-        Walk = 'move_m@brave',
-    },
-    {
-        Label = 'Brave 2',
-        Command = 'brave2',
-        Walk = 'move_m@brave@a',
-    },
-    {
-        Label = 'Brave 3',
-        Command = 'brave3',
-        Walk = 'move_m@brave@b',
-    },
-    {
-        Label = 'Butch',
-        Command = 'butch',
-        Walk = 'move_m@hurry_butch@a',
-    },
-    {
-        Label = 'Butch 2',
-        Command = 'butch2',
-        Walk = 'move_m@hurry_butch@b',
-    },
-    {
-        Label = 'Butch 3',
-        Command = 'butch3',
-        Walk = 'move_m@hurry_butch@c',
-    },
-    {
-        Label = 'Buzzed',
-        Command = 'buzzed',
-        Walk = 'move_m@buzzed',
-    },
-    {
-        Label = 'Casey',
-        Command = 'casey',
-        Walk = 'move_casey',
-    },
-    {
-        Label = 'Casual',
-        Command = 'casual',
-        Walk = 'move_m@casual@a',
-    },
-    {
-        Label = 'Casual 2',
-        Command = 'casual2',
-        Walk = 'move_m@casual@b',
-    },
-    {
-        Label = 'Casual 3',
-        Command = 'casual3',
-        Walk = 'move_m@casual@c',
-    },
-    {
-        Label = 'Casual 4',
-        Command = 'casual4',
-        Walk = 'move_m@casual@d',
-    },
-    {
-        Label = 'Casual 5',
-        Command = 'casual5',
-        Walk = 'move_m@casual@e',
-    },
-    {
-        Label = 'Casual 6',
-        Command = 'casual6',
-        Walk = 'move_m@casual@f',
-    },
-    {
-        Label = 'Chichi',
-        Command = 'chichi',
-        Walk = 'move_f@chichi',
-    },
-    {
-        Label = 'Chubby Female',
-        Command = 'chubbyfemale',
-        Walk = 'move_f@chubby@a',
-    },
-    {
-        Label = 'Chubby Male',
-        Command = 'chubbymale',
-        Walk = 'move_chubby',
-    },
-    {
-        Label = 'Confident',
-        Command = 'confident',
-        Walk = 'move_m@confident',
-    },
-    {
-        Label = 'Cop',
-        Command = 'cop',
-        Walk = 'move_m@business@a',
-    },
-    {
-        Label = 'Cop 2',
-        Command = 'cop2',
-        Walk = 'move_m@business@b',
-    },
-    {
-        Label = 'Cop 3',
-        Command = 'cop3',
-        Walk = 'move_m@business@c',
-    },
-    {
-        Label = 'Cop 4',
-        Command = 'cop4',
-        Walk = 'move_m@intimidation@cop@unarmed',
-    },
-    {
-        Label = 'Coward',
-        Command = 'coward',
-        Walk = 'move_m@coward',
-    },
-    {
-        Label = 'Dave',
-        Command = 'dave',
-        Walk = 'move_characters@dave_n',
-    },
-    {
-        Label = 'Default Female',
-        Command = 'defaultfemale',
-        Walk = 'move_f@multiplayer',
-    },
-    {
-        Label = 'Default Male',
-        Command = 'defaultmale',
-        Walk = 'move_m@multiplayer',
-    },
-    {
-        Label = 'Depressed',
-        Command = 'depressed',
-        Walk = 'move_m@depressed@a',
-    },
-    {
-        Label = 'Depressed 2',
-        Command = 'depressed2',
-        Walk = 'move_m@depressed@b',
-    },
-    {
-        Label = 'Depressed 3',
-        Command = 'depressed3',
-        Walk = 'move_f@depressed@a',
-    },
-    {
-        Label = 'Depressed 4',
-        Command = 'depressed4',
-        Walk = 'move_f@depressed@c',
-    },
-    {
-        Label = 'Dreyfuss',
-        Command = 'dreyfuss',
-        Walk = 'move_dreyfuss',
-    },
-    {
-        Label = 'Drunk',
-        Command = 'drunk',
-        Walk = 'move_m@drunk@a',
-    },
-    {
-        Label = 'Drunk 2',
-        Command = 'drunk2',
-        Walk = 'move_m@drunk@slightlydrunk',
-    },
-    {
-        Label = 'Drunk 4',
-        Command = 'drunk4',
-        Walk = 'move_m@drunk@verydrunk',
-    },
-    {
-        Label = 'Drunk 5',
-        Command = 'drunk5',
-        Walk = 'move_m@drunk@moderatedrunk',
-    },
-    {
-        Label = 'Drunk 6',
-        Command = 'drunk6',
-        Walk = 'move_m@drunk@moderatedrunk_head_up',
-    },
-    {
-        Label = 'Fat',
-        Command = 'fat',
-        Walk = 'move_f@fat@a',
-    },
-    {
-        Label = 'Fat 2',
-        Command = 'fat2',
-        Walk = 'move_m@fat@a',
-    },
-    {
-        Label = 'Fat 3',
-        Command = 'fat3',
-        Walk = 'move_m@fat@bulky',
-    },
-    {
-        Label = 'Fat 4',
-        Command = 'fat4',
-        Walk = 'move_f@fat@a_no_add',
-    },
-    {
-        Label = 'Femme',
-        Command = 'femme',
-        Walk = 'move_f@femme@',
-    },
-    {
-        Label = 'Femme 2',
-        Command = 'femme2',
-        Walk = 'move_m@femme@',
-    },
-    {
-        Label = 'Fire',
-        Command = 'fire',
-        Walk = 'move_characters@franklin@fire',
-    },
-    {
-        Label = 'Fire2',
-        Command = 'fire2',
-        Walk = 'move_characters@michael@fire',
-    },
-    {
-        Label = 'Fire3',
-        Command = 'fire3',
-        Walk = 'move_m@fire',
-    },
-    {
-        Label = 'Flee',
-        Command = 'flee',
-        Walk = 'move_f@flee@a',
-    },
-    {
-        Label = 'Flee 2',
-        Command = 'flee2',
-        Walk = 'move_f@flee@c',
-    },
-    {
-        Label = 'Flee 3',
-        Command = 'flee3',
-        Walk = 'move_m@flee@a',
-    },
-    {
-        Label = 'Flee 4',
-        Command = 'flee4',
-        Walk = 'move_m@flee@b',
-    },
-    {
-        Label = 'Flee 5',
-        Command = 'flee5',
-        Walk = 'move_m@flee@c',
-    },
-    {
-        Label = 'Floyd',
-        Command = 'floyd',
-        Walk = 'move_characters@floyd',
-    },
-    {
-        Label = 'Franklin',
-        Command = 'franklin',
-        Walk = 'move_p_m_one',
-    },
-    {
-        Label = 'Gangster',
-        Command = 'gangster',
-        Walk = 'move_m@gangster@generic',
-    },
-    {
-        Label = 'Gangster 2',
-        Command = 'gangster2',
-        Walk = 'move_gangster',
-    },
-    {
-        Label = 'Gangster 3',
-        Command = 'gangster3',
-        Walk = 'move_m@gangster@ng',
-    },
-    {
-        Label = 'Gangster 4',
-        Command = 'gangster4',
-        Walk = 'move_m@gangster@var_a',
-    },
-    {
-        Label = 'Gangster 5',
-        Command = 'gangster5',
-        Walk = 'move_m@gangster@var_b',
-    },
-    {
-        Label = 'Gangster 6',
-        Command = 'gangster6',
-        Walk = 'move_m@gangster@var_c',
-    },
-    {
-        Label = 'Gangster 7',
-        Command = 'gangster7',
-        Walk = 'move_m@gangster@var_d',
-    },
-    {
-        Label = 'Gangster 8',
-        Command = 'gangster8',
-        Walk = 'move_m@gangster@var_e',
-    },
-    {
-        Label = 'Gangster 9',
-        Command = 'gangster9',
-        Walk = 'move_m@gangster@var_f',
-    },
-    {
-        Label = 'Gangster 10',
-        Command = 'gangster10',
-        Walk = 'move_m@gangster@var_g',
-    },
-    {
-        Label = 'Gangster 11',
-        Command = 'gangster11',
-        Walk = 'move_m@gangster@var_h',
-    },
-    {
-        Label = 'Gangster 12',
-        Command = 'gangster12',
-        Walk = 'move_m@gangster@var_i',
-    },
-    {
-        Label = 'Gangster 13',
-        Command = 'gangster13',
-        Walk = 'move_m@gangster@var_j',
-    },
-    {
-        Label = 'Gangster 14',
-        Command = 'gangster14',
-        Walk = 'move_m@gangster@var_k',
-    },
-    {
-        Label = 'Generic',
-        Command = 'generic',
-        Walk = 'move_m@generic',
-    },
-    {
-        Label = 'Generic 2',
-        Command = 'generic2',
-        Walk = 'move_f@generic',
-    },
-    {
-        Label = 'Grooving',
-        Command = 'grooving',
-        Walk = 'anim@move_m@grooving@',
-    },
-    {
-        Label = 'Grooving 2',
-        Command = 'grooving2',
-        Walk = 'anim@move_f@grooving@',
-    },
-    {
-        Label = 'Guard',
-        Command = 'guard',
-        Walk = 'move_m@prison_gaurd',
-    },
-    {
-        Label = 'Handcuffs',
-        Command = 'handcuffs',
-        Walk = 'move_m@prisoner_cuffed',
-    },
-    {
-        Label = 'Heels',
-        Command = 'heels',
-        Walk = 'move_f@heels@c',
-    },
-    {
-        Label = 'Heels 2',
-        Command = 'heels2',
-        Walk = 'move_f@heels@d',
-    },
-    {
-        Label = 'Hiking',
-        Command = 'hiking',
-        Walk = 'move_m@hiking',
-    },
-    {
-        Label = 'Hiking 2',
-        Command = 'hiking2',
-        Walk = 'move_f@hiking',
-    },
-    {
-        Label = 'Hipster',
-        Command = 'hipster',
-        Walk = 'move_m@hipster@a',
-    },
-    {
-        Label = 'Hobo',
-        Command = 'hobo',
-        Walk = 'move_m@hobo@a',
-    },
-    {
-        Label = 'Hobo 2',
-        Command = 'hobo2',
-        Walk = 'move_m@hobo@b',
-    },
-    {
-        Label = 'Hurry',
-        Command = 'hurry',
-        Walk = 'move_f@hurry@a',
-    },
-    {
-        Label = 'Hurry 2',
-        Command = 'hurry2',
-        Walk = 'move_m@hurry@a',
-    },
-    {
-        Label = 'Hurry 3',
-        Command = 'hurry3',
-        Walk = 'move_m@hurry@c',
-    },
-    {
-        Label = 'Hurry 4',
-        Command = 'hurry4',
-        Walk = 'move_f@hurry@b',
-    },
-    {
-        Label = 'Injured',
-        Command = 'injured',
-        Walk = 'move_m@injured',
-    },
-    {
-        Label = 'Injured 2',
-        Command = 'injured2',
-        Walk = 'move_f@injured',
-    },
-    {
-        Label = 'Intimidating',
-        Command = 'intimidating',
-        Walk = 'move_m@intimidation@1h',
-    },
-    {
-        Label = 'Intimidating 2',
-        Command = 'intimidating2',
-        Walk = 'move_m@intimidation@unarmed',
-    },
-    {
-        Label = 'Janitor',
-        Command = 'janitor',
-        Walk = 'move_p_m_zero_janitor',
-    },
-    {
-        Label = 'Janitor 2',
-        Command = 'janitor2',
-        Walk = 'move_p_m_zero_slow',
-    },
-    {
-        Label = 'Jimmy',
-        Command = 'jimmy',
-        Walk = 'move_characters@jimmy',
-    },
-    {
-        Label = 'Jog',
-        Command = 'jog',
-        Walk = 'move_m@jog@',
-    },
-    {
-        Label = 'Lamar',
-        Command = 'lamar',
-        Walk = 'anim_group_move_lemar_alley',
-    },
-    {
-        Label = 'Lamar 2',
-        Command = 'lamar2',
-        Walk = 'move_characters@lamar',
-    },
-    {
-        Label = 'Lester',
-        Command = 'lester',
-        Walk = 'move_heist_lester',
-    },
-    {
-        Label = 'Lester 2',
-        Command = 'lester2',
-        Walk = 'move_lester_caneup',
-    },
-    {
-        Label = 'Maneater',
-        Command = 'maneater',
-        Walk = 'move_f@maneater',
-    },
-    {
-        Label = 'Michael',
-        Command = 'michael',
-        Walk = 'move_ped_bucket',
-    },
-    {
-        Label = 'Money',
-        Command = 'money',
-        Walk = 'move_m@money',
-    },
-    {
-        Label = 'Muscle',
-        Command = 'muscle',
-        Walk = 'move_m@muscle@a',
-    },
-    {
-        Label = 'Nervous',
-        Command = 'nervous',
-        Walk = 'move_characters@jimmy@nervous@',
-    },
-    {
-        Label = 'Patricia',
-        Command = 'patricia',
-        Walk = 'move_characters@patricia',
-    },
-    {
-        Label = 'Paramedic',
-        Command = 'paramedic',
-        Walk = 'move_paramedic',
-    },
-    {
-        Label = 'Posh',
-        Command = 'posh',
-        Walk = 'move_m@posh@',
-    },
-    {
-        Label = 'Posh 2',
-        Command = 'posh2',
-        Walk = 'move_f@posh@',
-    },
-    {
-        Label = 'Quick',
-        Command = 'quick',
-        Walk = 'move_m@quick',
-    },
-    {
-        Label = 'Ron',
-        Command = 'ron',
-        Walk = 'move_characters@ron',
-    },
-    {
-        Label = 'Runner',
-        Command = 'runner',
-        Walk = 'female_fast_runner',
-    },
-    {
-        Label = 'Sad',
-        Command = 'sad',
-        Walk = 'move_m@sad@a',
-    },
-    {
-        Label = 'Sad 2',
-        Command = 'sad2',
-        Walk = 'move_m@sad@b',
-    },
-    {
-        Label = 'Sad 3',
-        Command = 'sad3',
-        Walk = 'move_m@sad@c',
-    },
-    {
-        Label = 'Sad 4',
-        Command = 'sad4',
-        Walk = 'move_f@sad@a',
-    },
-    {
-        Label = 'Sad 5',
-        Command = 'sad5',
-        Walk = 'move_f@sad@b',
-    },
-    {
-        Label = 'Sassy',
-        Command = 'sassy',
-        Walk = 'move_m@sassy',
-    },
-    {
-        Label = 'Sassy 2',
-        Command = 'sassy2',
-        Walk = 'move_f@sassy',
-    },
-    {
-        Label = 'Scared',
-        Command = 'scared',
-        Walk = 'move_f@scared',
-    },
-    {
-        Label = 'Sexy',
-        Command = 'sexy',
-        Walk = 'move_f@sexy@a',
-    },
-    {
-        Label = 'Shady',
-        Command = 'shady',
-        Walk = 'move_m@shadyped@a',
-    },
-    {
-        Label = 'Slow',
-        Command = 'slow',
-        Walk = 'move_characters@jimmy@slow@',
-    },
-    {
-        Label = 'Stripper',
-        Command = 'stripper',
-        Walk = 'move_f@stripper@a',
-    },
-    {
-        Label = 'Swagger',
-        Command = 'swagger',
-        Walk = 'move_m@swagger',
-    },
-    {
-        Label = 'Swagger 2',
-        Command = 'swagger2',
-        Walk = 'move_m@swagger@b',
-    },
-    {
-        Label = 'Tough',
-        Command = 'tough',
-        Walk = 'move_m@tough_guy@',
-    },
-    {
-        Label = 'Tough 2',
-        Command = 'tough2',
-        Walk = 'move_f@tough_guy@',
-    },
-    {
-        Label = 'Toolbelt',
-        Command = 'toolbelt',
-        Walk = 'move_m@tool_belt@a',
-    },
-    {
-        Label = 'Toolbelt 2',
-        Command = 'toolbelt2',
-        Walk = 'move_f@tool_belt@a',
-    },
-    {
-        Label = 'Tracy',
-        Command = 'tracy',
-        Walk = 'move_characters@tracey',
-    },
-    {
-        Label = 'Trash',
-        Command = 'trash',
-        Walk = 'clipset@move@trash_fast_turn',
-    },
-    {
-        Label = 'Trash 2',
-        Command = 'trash2',
-        Walk = 'missfbi4prepp1_garbageman',
-    },
-    {
-        Label = 'Trevor',
-        Command = 'trevor',
-        Walk = 'move_p_m_two',
-    },
-    {
-        Label = 'Very Slow',
-        Command = 'veryslow',
-        Walk = 'move_m@leaf_blower',
-    },
-    {
-        Label = 'Wide',
-        Command = 'wide',
-        Walk = 'move_m@bag',
+﻿return {
+    alien = {
+        label = 'Alien',
+        walk = 'move_m@alien'
+    },
+    armored = {
+        label = 'Armored',
+        walk = 'anim_group_move_ballistic'
+    },
+    arrogant = {
+        label = 'Arrogant',
+        walk = 'move_f@arrogant@a'
+    },
+    brave = {
+        label = 'Brave',
+        walk = 'move_m@brave'
+    },
+    brave2 = {
+        label = 'Brave 2',
+        walk = 'move_m@brave@a'
+    },
+    brave3 = {
+        label = 'Brave 3',
+        walk = 'move_m@brave@b'
+    },
+    butch = {
+        label = 'Butch',
+        walk = 'move_m@hurry_butch@a'
+    },
+    butch2 = {
+        label = 'Butch 2',
+        walk = 'move_m@hurry_butch@b'
+    },
+    butch3 = {
+        label = 'Butch 3',
+        walk = 'move_m@hurry_butch@c'
+    },
+    buzzed = {
+        label = 'Buzzed',
+        walk = 'move_m@buzzed'
+    },
+    casey = {
+        label = 'Casey',
+        walk = 'move_casey'
+    },
+    casual = {
+        label = 'Casual',
+        walk = 'move_m@casual@a'
+    },
+    casual2 = {
+        label = 'Casual 2',
+        walk = 'move_m@casual@b'
+    },
+    casual3 = {
+        label = 'Casual 3',
+        walk = 'move_m@casual@c'
+    },
+    casual4 = {
+        label = 'Casual 4',
+        walk = 'move_m@casual@d'
+    },
+    casual5 = {
+        label = 'Casual 5',
+        walk = 'move_m@casual@e'
+    },
+    casual6 = {
+        label = 'Casual 6',
+        walk = 'move_m@casual@f'
+    },
+    chichi = {
+        label = 'Chichi',
+        walk = 'move_f@chichi'
+    },
+    chubbyfemale = {
+        label = 'Chubby Female',
+        walk = 'move_f@chubby@a'
+    },
+    chubbymale = {
+        label = 'Chubby Male',
+        walk = 'move_chubby'
+    },
+    confident = {
+        label = 'Confident',
+        walk = 'move_m@confident'
+    },
+    cop = {
+        label = 'Cop',
+        walk = 'move_m@business@a'
+    },
+    cop2 = {
+        label = 'Cop 2',
+        walk = 'move_m@business@b'
+    },
+    cop3 = {
+        label = 'Cop 3',
+        walk = 'move_m@business@c'
+    },
+    cop4 = {
+        label = 'Cop 4',
+        walk = 'move_m@intimidation@cop@unarmed'
+    },
+    coward = {
+        label = 'Coward',
+        walk = 'move_m@coward'
+    },
+    dave = {
+        label = 'Dave',
+        walk = 'move_characters@dave_n'
+    },
+    defaultfemale = {
+        label = 'Default Female',
+        walk = 'move_f@multiplayer'
+    },
+    defaultmale = {
+        label = 'Default Male',
+        walk = 'move_m@multiplayer'
+    },
+    depressed = {
+        label = 'Depressed',
+        walk = 'move_m@depressed@a'
+    },
+    depressed2 = {
+        label = 'Depressed 2',
+        walk = 'move_m@depressed@b'
+    },
+    depressed3 = {
+        label = 'Depressed 3',
+        walk = 'move_f@depressed@a'
+    },
+    depressed4 = {
+        label = 'Depressed 4',
+        walk = 'move_f@depressed@c'
+    },
+    dreyfuss = {
+        label = 'Dreyfuss',
+        walk = 'move_dreyfuss'
+    },
+    drunk = {
+        label = 'Drunk',
+        walk = 'move_m@drunk@a'
+    },
+    drunk2 = {
+        label = 'Drunk 2',
+        walk = 'move_m@drunk@slightlydrunk'
+    },
+    drunk4 = {
+        label = 'Drunk 4',
+        walk = 'move_m@drunk@verydrunk'
+    },
+    drunk5 = {
+        label = 'Drunk 5',
+        walk = 'move_m@drunk@moderatedrunk'
+    },
+    drunk6 = {
+        label = 'Drunk 6',
+        walk = 'move_m@drunk@moderatedrunk_head_up'
+    },
+    fat = {
+        label = 'Fat',
+        walk = 'move_f@fat@a'
+    },
+    fat2 = {
+        label = 'Fat 2',
+        walk = 'move_m@fat@a'
+    },
+    fat3 = {
+        label = 'Fat 3',
+        walk = 'move_m@fat@bulky'
+    },
+    fat4 = {
+        label = 'Fat 4',
+        walk = 'move_f@fat@a_no_add'
+    },
+    femme = {
+        label = 'Femme',
+        walk = 'move_f@femme@'
+    },
+    femme2 = {
+        label = 'Femme 2',
+        walk = 'move_m@femme@'
+    },
+    fire = {
+        label = 'Fire',
+        walk = 'move_characters@franklin@fire'
+    },
+    fire2 = {
+        label = 'Fire2',
+        walk = 'move_characters@michael@fire'
+    },
+    fire3 = {
+        label = 'Fire3',
+        walk = 'move_m@fire'
+    },
+    flee = {
+        label = 'Flee',
+        walk = 'move_f@flee@a'
+    },
+    flee2 = {
+        label = 'Flee 2',
+        walk = 'move_f@flee@c'
+    },
+    flee3 = {
+        label = 'Flee 3',
+        walk = 'move_m@flee@a'
+    },
+    flee4 = {
+        label = 'Flee 4',
+        walk = 'move_m@flee@b'
+    },
+    flee5 = {
+        label = 'Flee 5',
+        walk = 'move_m@flee@c'
+    },
+    floyd = {
+        label = 'Floyd',
+        walk = 'move_characters@floyd'
+    },
+    franklin = {
+        label = 'Franklin',
+        walk = 'move_p_m_one'
+    },
+    gangster = {
+        label = 'Gangster',
+        walk = 'move_m@gangster@generic'
+    },
+    gangster2 = {
+        label = 'Gangster 2',
+        walk = 'move_gangster'
+    },
+    gangster3 = {
+        label = 'Gangster 3',
+        walk = 'move_m@gangster@ng'
+    },
+    gangster4 = {
+        label = 'Gangster 4',
+        walk = 'move_m@gangster@var_a'
+    },
+    gangster5 = {
+        label = 'Gangster 5',
+        walk = 'move_m@gangster@var_b'
+    },
+    gangster6 = {
+        label = 'Gangster 6',
+        walk = 'move_m@gangster@var_c'
+    },
+    gangster7 = {
+        label = 'Gangster 7',
+        walk = 'move_m@gangster@var_d'
+    },
+    gangster8 = {
+        label = 'Gangster 8',
+        walk = 'move_m@gangster@var_e'
+    },
+    gangster9 = {
+        label = 'Gangster 9',
+        walk = 'move_m@gangster@var_f'
+    },
+    gangster10 = {
+        label = 'Gangster 10',
+        walk = 'move_m@gangster@var_g'
+    },
+    gangster11 = {
+        label = 'Gangster 11',
+        walk = 'move_m@gangster@var_h'
+    },
+    gangster12 = {
+        label = 'Gangster 12',
+        walk = 'move_m@gangster@var_i'
+    },
+    gangster13 = {
+        label = 'Gangster 13',
+        walk = 'move_m@gangster@var_j'
+    },
+    gangster14 = {
+        label = 'Gangster 14',
+        walk = 'move_m@gangster@var_k'
+    },
+    generic = {
+        label = 'Generic',
+        walk = 'move_m@generic'
+    },
+    generic2 = {
+        label = 'Generic 2',
+        walk = 'move_f@generic'
+    },
+    grooving = {
+        label = 'Grooving',
+        walk = 'anim@move_m@grooving@'
+    },
+    grooving2 = {
+        label = 'Grooving 2',
+        walk = 'anim@move_f@grooving@'
+    },
+    guard = {
+        label = 'Guard',
+        walk = 'move_m@prison_gaurd'
+    },
+    handcuffs = {
+        label = 'Handcuffs',
+        walk = 'move_m@prisoner_cuffed'
+    },
+    heels = {
+        label = 'Heels',
+        walk = 'move_f@heels@c'
+    },
+    heels2 = {
+        label = 'Heels 2',
+        walk = 'move_f@heels@d'
+    },
+    hiking = {
+        label = 'Hiking',
+        walk = 'move_m@hiking'
+    },
+    hiking2 = {
+        label = 'Hiking 2',
+        walk = 'move_f@hiking'
+    },
+    hipster = {
+        label = 'Hipster',
+        walk = 'move_m@hipster@a'
+    },
+    hobo = {
+        label = 'Hobo',
+        walk = 'move_m@hobo@a'
+    },
+    hobo2 = {
+        label = 'Hobo 2',
+        walk = 'move_m@hobo@b'
+    },
+    hurry = {
+        label = 'Hurry',
+        walk = 'move_f@hurry@a'
+    },
+    hurry2 = {
+        label = 'Hurry 2',
+        walk = 'move_m@hurry@a'
+    },
+    hurry3 = {
+        label = 'Hurry 3',
+        walk = 'move_m@hurry@c'
+    },
+    hurry4 = {
+        label = 'Hurry 4',
+        walk = 'move_f@hurry@b'
+    },
+    injured = {
+        label = 'Injured',
+        walk = 'move_m@injured'
+    },
+    injured2 = {
+        label = 'Injured 2',
+        walk = 'move_f@injured'
+    },
+    intimidating = {
+        label = 'Intimidating',
+        walk = 'move_m@intimidation@1h'
+    },
+    intimidating2 = {
+        label = 'Intimidating 2',
+        walk = 'move_m@intimidation@unarmed'
+    },
+    janitor = {
+        label = 'Janitor',
+        walk = 'move_p_m_zero_janitor'
+    },
+    janitor2 = {
+        label = 'Janitor 2',
+        walk = 'move_p_m_zero_slow'
+    },
+    jimmy = {
+        label = 'Jimmy',
+        walk = 'move_characters@jimmy'
+    },
+    jog = {
+        label = 'Jog',
+        walk = 'move_m@jog@'
+    },
+    lamar = {
+        label = 'Lamar',
+        walk = 'anim_group_move_lemar_alley'
+    },
+    lamar2 = {
+        label = 'Lamar 2',
+        walk = 'move_characters@lamar'
+    },
+    lester = {
+        label = 'Lester',
+        walk = 'move_heist_lester'
+    },
+    lester2 = {
+        label = 'Lester 2',
+        walk = 'move_lester_caneup'
+    },
+    maneater = {
+        label = 'Maneater',
+        walk = 'move_f@maneater'
+    },
+    michael = {
+        label = 'Michael',
+        walk = 'move_ped_bucket'
+    },
+    money = {
+        label = 'Money',
+        walk = 'move_m@money'
+    },
+    muscle = {
+        label = 'Muscle',
+        walk = 'move_m@muscle@a'
+    },
+    nervous = {
+        label = 'Nervous',
+        walk = 'move_characters@jimmy@nervous@'
+    },
+    patricia = {
+        label = 'Patricia',
+        walk = 'move_characters@patricia'
+    },
+    paramedic = {
+        label = 'Paramedic',
+        walk = 'move_paramedic'
+    },
+    posh = {
+        label = 'Posh',
+        walk = 'move_m@posh@'
+    },
+    posh2 = {
+        label = 'Posh 2',
+        walk = 'move_f@posh@'
+    },
+    quick = {
+        label = 'Quick',
+        walk = 'move_m@quick'
+    },
+    ron = {
+        label = 'Ron',
+        walk = 'move_characters@ron'
+    },
+    runner = {
+        label = 'Runner',
+        walk = 'female_fast_runner'
+    },
+    sad = {
+        label = 'Sad',
+        walk = 'move_m@sad@a'
+    },
+    sad2 = {
+        label = 'Sad 2',
+        walk = 'move_m@sad@b'
+    },
+    sad3 = {
+        label = 'Sad 3',
+        walk = 'move_m@sad@c'
+    },
+    sad4 = {
+        label = 'Sad 4',
+        walk = 'move_f@sad@a'
+    },
+    sad5 = {
+        label = 'Sad 5',
+        walk = 'move_f@sad@b'
+    },
+    sassy = {
+        label = 'Sassy',
+        walk = 'move_m@sassy'
+    },
+    sassy2 = {
+        label = 'Sassy 2',
+        walk = 'move_f@sassy'
+    },
+    scared = {
+        label = 'Scared',
+        walk = 'move_f@scared'
+    },
+    sexy = {
+        label = 'Sexy',
+        walk = 'move_f@sexy@a'
+    },
+    shady = {
+        label = 'Shady',
+        walk = 'move_m@shadyped@a'
+    },
+    slow = {
+        label = 'Slow',
+        walk = 'move_characters@jimmy@slow@'
+    },
+    stripper = {
+        label = 'Stripper',
+        walk = 'move_f@stripper@a'
+    },
+    swagger = {
+        label = 'Swagger',
+        walk = 'move_m@swagger'
+    },
+    swagger2 = {
+        label = 'Swagger 2',
+        walk = 'move_m@swagger@b'
+    },
+    tough = {
+        label = 'Tough',
+        walk = 'move_m@tough_guy@'
+    },
+    tough2 = {
+        label = 'Tough 2',
+        walk = 'move_f@tough_guy@'
+    },
+    toolbelt = {
+        label = 'Toolbelt',
+        walk = 'move_m@tool_belt@a'
+    },
+    toolbelt2 = {
+        label = 'Toolbelt 2',
+        walk = 'move_f@tool_belt@a'
+    },
+    tracy = {
+        label = 'Tracy',
+        walk = 'move_characters@tracey'
+    },
+    trash = {
+        label = 'Trash',
+        walk = 'clipset@move@trash_fast_turn'
+    },
+    trash2 = {
+        label = 'Trash 2',
+        walk = 'missfbi4prepp1_garbageman'
+    },
+    trevor = {
+        label = 'Trevor',
+        walk = 'move_p_m_two'
+    },
+    veryslow = {
+        label = 'Very Slow',
+        walk = 'move_m@leaf_blower'
     }
 }
