@@ -31,6 +31,7 @@ local function LoadEmotesData()
         if not excludeCategories[categoryName] and type(categoryData) == 'table' then
             for emoteName, emoteData in pairs(categoryData) do
                 Emotes.all_emotes[emoteName] = emoteData
+                Emotes.all_emotes[emoteName].originalCategory = categoryName
             end
         end
     end
