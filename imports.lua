@@ -14,6 +14,26 @@ local Emotes = {
     shared_dances = shared_dances
 }
 
+-- Deep clone function to create a complete copy of a table
+local function deepcopy(original)
+    if type(original) ~= 'table' then
+        return original
+    end
+
+    local copy = {}
+    for key, value in pairs(original) do
+        copy[deepcopy(key)] = deepcopy(value)
+    end
+
+    -- Handle metatables
+    local mt = getmetatable(original)
+    if mt then
+        setmetatable(copy, deepcopy(mt))
+    end
+
+    return copy
+end
+
 -- Load all emote configuration files
 local function LoadEmotesData()
     -- All Emotes - combine all emote categories except expressions, scenarios, and walk_styles
@@ -37,7 +57,21 @@ local function LoadEmotesData()
     end
 
     -- shared dance init
-    Emotes.shared_dances = Emotes.dance_emotes
+    local cloned_shared_dances = deepcopy(Emotes.dance_emotes)
+    local shared_dances = {}
+
+    for k, emoteObject in pairs(cloned_shared_dances) do
+        local emote = emoteObject
+        if not emote.options then emote.options = {} end
+
+        emote.name = k
+        emote.options.shared = { otheremote = k }
+        emote.synchronized = true
+        shared_dances[k] = emote
+    end
+
+    Emotes.shared_dances = shared_dances
+
     load = true
     return true
 end
