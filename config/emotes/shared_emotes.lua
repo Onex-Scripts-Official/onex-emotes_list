@@ -1,5 +1,6 @@
 shared_emotes = {
     carried3 = {
+        name = 'carried3',
         label = 'Carried 3',
         animation = 'couplepose2cmg_clip',
         dictionary = 'couplepose2cmg@animation',
@@ -11,12 +12,13 @@ shared_emotes = {
                 attach = true,
                 bone = 0,
                 otheremote = 'scarry3',
-                placement = {vec3(0.01, 0.344, -0.01), vec3(180.0, 180.0, -1.999900)}
+                placement = { vec3(0.01, 0.344, -0.01), vec3(180.0, 180.0, -1.999900) }
             }
         },
         synchronized = true
     },
     carry2 = {
+        name = 'carry2',
         label = 'Carry 2',
         animation = 'idle',
         dictionary = 'anim@heists@box_carry@',
@@ -34,6 +36,7 @@ shared_emotes = {
         synchronized = true
     },
     hugtip = {
+        name = 'hugtip',
         label = 'Hug Pose Tippy Toes',
         animation = 'friendship007',
         dictionary = 'littlespoon@friendship007',
@@ -48,6 +51,7 @@ shared_emotes = {
         synchronized = true
     },
     hugtip2 = {
+        name = 'hugtip2',
         label = 'Hug Pose Tippy Toes 2',
         animation = 'friendship008',
         dictionary = 'littlespoon@friendship008',
@@ -62,6 +66,7 @@ shared_emotes = {
         synchronized = true
     },
     sbaseball = {
+        name = 'sbaseball',
         label = 'Baseball',
         animation = 'baseball_a_player_a',
         dictionary = 'anim@arena@celeb@flat@paired@no_props@',
@@ -73,6 +78,7 @@ shared_emotes = {
         synchronized = true
     },
     sbaseballthrow = {
+        name = 'sbaseballthrow',
         label = 'Baseball Throw',
         animation = 'baseball_a_player_b',
         dictionary = 'anim@arena@celeb@flat@paired@no_props@',
@@ -84,6 +90,7 @@ shared_emotes = {
         synchronized = true
     },
     sbro = {
+        name = 'sbro',
         label = 'Bro',
         animation = 'hugs_guy_a',
         dictionary = 'mp_ped_interaction',
@@ -96,6 +103,7 @@ shared_emotes = {
         synchronized = true
     },
     sbro2 = {
+        name = 'sbro2',
         label = 'Bro 2',
         animation = 'hugs_guy_b',
         dictionary = 'mp_ped_interaction',
@@ -108,6 +116,7 @@ shared_emotes = {
         synchronized = true
     },
     scarried = {
+        name = 'scarried',
         label = 'Carried',
         animation = 'firemans_carry',
         dictionary = 'nm',
@@ -119,12 +128,13 @@ shared_emotes = {
                 attach = true,
                 bone = 40269,
                 otheremote = 'scarry',
-                placement = {vec3(-0.14, 0.15, 0.14), vec3(0.0, -59.0, -4.5)}
+                placement = { vec3(-0.14, 0.15, 0.14), vec3(0.0, -59.0, -4.5) }
             }
         },
         synchronized = true
     },
     scarried2 = {
+        name = 'scarried2',
         label = 'Carried 2',
         animation = 'base',
         dictionary = 'amb@code_human_in_car_idles@generic@ps@base',
@@ -136,12 +146,13 @@ shared_emotes = {
                 attach = true,
                 bone = 28252,
                 otheremote = 'carry2',
-                placement = {vec3(0.35, 0.15, -0.15), vec3(-42.5, -22.5, 22.5)}
+                placement = { vec3(0.35, 0.15, -0.15), vec3(-42.5, -22.5, 22.5) }
             }
         },
         synchronized = true
     },
     scarry = {
+        name = 'scarry',
         label = 'Carry',
         animation = 'fin_c2_mcs_1_camman',
         dictionary = 'missfinale_c2mcs_1',
@@ -158,6 +169,7 @@ shared_emotes = {
         synchronized = true
     },
     scarry3 = {
+        name = 'scarry3',
         label = 'Carry 3',
         animation = 'couplepose1cmg_clip',
         dictionary = 'couplepose1cmg@animation',
@@ -172,6 +184,7 @@ shared_emotes = {
         synchronized = true
     },
     scbdog = {
+        name = 'scbdog',
         label = 'Carry Big Dog',
         animation = 'idle',
         dictionary = 'anim@heists@box_carry@',
@@ -187,6 +200,7 @@ shared_emotes = {
         synchronized = true
     },
     scbdog2 = {
+        name = 'scbdog2',
         label = 'Big Dog Carried',
         animation = 'sleep_in_kennel',
         dictionary = 'creatures@rottweiler@amb@sleep_in_kennel@',
@@ -197,12 +211,13 @@ shared_emotes = {
             shared = {
                 attach = true,
                 otheremote = 'scbdog',
-                placement = {vec3(-0.1, 0.65, 0.43), vec3(0.0, 0.0, -100.0)}
+                placement = { vec3(-0.1, 0.65, 0.43), vec3(0.0, 0.0, -100.0) }
             }
         },
         synchronized = true
     },
     scoupleanim = {
+        name = 'scoupleanim',
         label = 'Couple Drinking (Wine Glasses)',
         animation = 'action_var_01_bank_manager',
         dictionary = 'anim@scripted@robbery@tun_prep_uni_ig1_couple@',
@@ -210,11 +225,11 @@ shared_emotes = {
             flags = {
                 loop = true
             },
-            props = {{
+            props = { {
                 bone = 60309,
                 name = 'p_wine_glass_s',
-                placement = {vec3(-0.05, -0.01, -0.17), vec3(0.0, 0.0, 0.0)}
-            }},
+                placement = { vec3(-0.05, -0.01, -0.17), vec3(0.0, 0.0, 0.0) }
+            } },
             shared = {
                 otheremote = 'scoupleanim2'
             }
@@ -222,6 +237,7 @@ shared_emotes = {
         synchronized = true
     },
     scoupleanim2 = {
+        name = 'scoupleanim2',
         label = 'Couple Drinking F (Wine Glasses)',
         animation = 'action_var_01_female',
         dictionary = 'anim@scripted@robbery@tun_prep_uni_ig1_couple@',
@@ -229,11 +245,11 @@ shared_emotes = {
             flags = {
                 loop = true
             },
-            props = {{
+            props = { {
                 bone = 28422,
                 name = 'p_wine_glass_s',
-                placement = {vec3(0.0, 0.0, 0.0), vec3(0.0, 0.0, 0.0)}
-            }},
+                placement = { vec3(0.0, 0.0, 0.0), vec3(0.0, 0.0, 0.0) }
+            } },
             shared = {
                 frontoffset = 0.11,
                 otheremote = 'scoupleanim',
@@ -243,6 +259,7 @@ shared_emotes = {
         synchronized = true
     },
     scprs = {
+        name = 'scprs',
         label = 'Give CPR',
         animation = 'cpr_pumpchest',
         dictionary = 'mini@cpr@char_a@cpr_str',
@@ -258,6 +275,7 @@ shared_emotes = {
         synchronized = true
     },
     scprs2 = {
+        name = 'scprs2',
         label = 'Get CPR',
         animation = 'cpr_pumpchest',
         dictionary = 'mini@cpr@char_b@cpr_str',
@@ -268,12 +286,13 @@ shared_emotes = {
             shared = {
                 attach = true,
                 otheremote = 'scprs',
-                placement = {vec3(0.35, 0.8, 0.0), vec3(0.0, 0.0, 270.0)}
+                placement = { vec3(0.35, 0.8, 0.0), vec3(0.0, 0.0, 270.0) }
             }
         },
         synchronized = true
     },
     scprs3 = {
+        name = 'scprs3',
         label = 'Give CPR 2',
         animation = 'cpr_loop_paramedic',
         dictionary = 'missheistfbi3b_ig8_2',
@@ -289,6 +308,7 @@ shared_emotes = {
         synchronized = true
     },
     scprs4 = {
+        name = 'scprs4',
         label = 'Get CPR 2',
         animation = 'cpr_loop_victim',
         dictionary = 'missheistfbi3b_ig8_2',
@@ -299,12 +319,13 @@ shared_emotes = {
             shared = {
                 attach = true,
                 otheremote = 'scprs3',
-                placement = {vec3(0.35, 0.65, 0.0), vec3(0.0, 0.0, 270.0)}
+                placement = { vec3(0.35, 0.65, 0.0), vec3(0.0, 0.0, 270.0) }
             }
         },
         synchronized = true
     },
     sgive = {
+        name = 'sgive',
         label = 'Give',
         animation = 'givetake1_a',
         dictionary = 'mp_common',
@@ -320,6 +341,7 @@ shared_emotes = {
         synchronized = true
     },
     sgive2 = {
+        name = 'sgive2',
         label = 'Give 2',
         animation = 'givetake1_b',
         dictionary = 'mp_common',
@@ -335,6 +357,7 @@ shared_emotes = {
         synchronized = true
     },
     sgiveblowjob = {
+        name = 'sgiveblowjob',
         label = 'Give Blowjob',
         animation = 'pimpsex_hooker',
         dictionary = 'misscarsteal2pimpsex',
@@ -349,6 +372,7 @@ shared_emotes = {
         synchronized = true
     },
     shandshake = {
+        name = 'shandshake',
         label = 'Handshake',
         animation = 'handshake_guy_a',
         dictionary = 'mp_ped_interaction',
@@ -365,6 +389,7 @@ shared_emotes = {
         synchronized = true
     },
     shandshake2 = {
+        name = 'shandshake2',
         label = 'Handshake 2',
         animation = 'handshake_guy_b',
         dictionary = 'mp_ped_interaction',
@@ -380,6 +405,7 @@ shared_emotes = {
         synchronized = true
     },
     sheadbutt = {
+        name = 'sheadbutt',
         label = 'Headbutt',
         animation = 'plyr_takedown_front_headbutt',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -391,6 +417,7 @@ shared_emotes = {
         synchronized = true
     },
     sheadbutted = {
+        name = 'sheadbutted',
         label = 'Headbutted',
         animation = 'victim_takedown_front_headbutt',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -402,6 +429,7 @@ shared_emotes = {
         synchronized = true
     },
     shostage = {
+        name = 'shostage',
         label = 'Take hostage',
         animation = 'perp_idle',
         dictionary = 'anim@gangops@hostage@',
@@ -417,6 +445,7 @@ shared_emotes = {
         synchronized = true
     },
     shostage2 = {
+        name = 'shostage2',
         label = 'Be hostage',
         animation = 'victim_idle',
         dictionary = 'anim@gangops@hostage@',
@@ -427,12 +456,13 @@ shared_emotes = {
             shared = {
                 attach = true,
                 otheremote = 'shostage',
-                placement = {vec3(-0.3, 0.1, 0.0), vec3(0.0, 0.0, 0.0)}
+                placement = { vec3(-0.3, 0.1, 0.0), vec3(0.0, 0.0, 0.0) }
             }
         },
         synchronized = true
     },
     shug = {
+        name = 'shug',
         label = 'Hug',
         animation = 'kisses_guy_a',
         dictionary = 'mp_ped_interaction',
@@ -446,6 +476,7 @@ shared_emotes = {
         synchronized = true
     },
     shug2 = {
+        name = 'shug2',
         label = 'Hug 2',
         animation = 'kisses_guy_b',
         dictionary = 'mp_ped_interaction',
@@ -459,6 +490,7 @@ shared_emotes = {
         synchronized = true
     },
     shug3 = {
+        name = 'shug3',
         label = 'Hug Romantic 1',
         animation = 'chad_armsaround_chad',
         dictionary = 'misscarsteal2chad_goodbye',
@@ -475,6 +507,7 @@ shared_emotes = {
         synchronized = true
     },
     shug4 = {
+        name = 'shug4',
         label = 'Hug Romantic 2',
         animation = 'chad_armsaround_girl',
         dictionary = 'misscarsteal2chad_goodbye',
@@ -491,6 +524,7 @@ shared_emotes = {
         synchronized = true
     },
     skiss = {
+        name = 'skiss',
         label = 'Kiss',
         animation = 'cs_lestercrest_3_dual-20',
         dictionary = 'hs3_ext-20',
@@ -504,6 +538,7 @@ shared_emotes = {
         synchronized = true
     },
     skiss2 = {
+        name = 'skiss2',
         label = 'Kiss 2',
         animation = 'csb_georginacheng_dual-20',
         dictionary = 'hs3_ext-20',
@@ -517,6 +552,7 @@ shared_emotes = {
         synchronized = true
     },
     skiss3 = {
+        name = 'skiss3',
         label = 'Kiss 3',
         animation = 'cs_lestercrest_3_dual-19',
         dictionary = 'hs3_ext-19',
@@ -530,6 +566,7 @@ shared_emotes = {
         synchronized = true
     },
     skiss4 = {
+        name = 'skiss4',
         label = 'Kiss 4',
         animation = 'csb_georginacheng_dual-19',
         dictionary = 'hs3_ext-19',
@@ -543,6 +580,7 @@ shared_emotes = {
         synchronized = true
     },
     sliftme = {
+        name = 'sliftme',
         label = 'Lift Me',
         animation = 'couplepose1pack1anim2_clip',
         dictionary = 'couplepose1pack1anim2@animation',
@@ -557,6 +595,7 @@ shared_emotes = {
         synchronized = true
     },
     sliftme2 = {
+        name = 'sliftme2',
         label = 'Lift Me 2',
         animation = 'couplepose1pack1anim1_clip',
         dictionary = 'couplepose1pack1anim1@animation',
@@ -568,12 +607,13 @@ shared_emotes = {
                 attach = true,
                 bone = 0,
                 otheremote = 'sliftme',
-                placement = {vec3(0.002, 0.287, 0.25), vec3(0.0, 0.0, 180.0)}
+                placement = { vec3(0.002, 0.287, 0.25), vec3(0.0, 0.0, 180.0) }
             }
         },
         synchronized = true
     },
     sliftme3 = {
+        name = 'sliftme3',
         label = 'Lift Me 3',
         animation = 'couplepose2pack1anim2_clip',
         dictionary = 'couplepose2pack1anim2@animation',
@@ -588,6 +628,7 @@ shared_emotes = {
         synchronized = true
     },
     sliftme4 = {
+        name = 'sliftme4',
         label = 'Lift Me 4',
         animation = 'couplepose2pack1anim1_clip',
         dictionary = 'couplepose2pack1anim1@animation',
@@ -599,12 +640,13 @@ shared_emotes = {
                 attach = true,
                 bone = 0,
                 otheremote = 'sliftme3',
-                placement = {vec3(0.01, 0.48, 0.53), vec3(0.0, 0.0, 180.0)}
+                placement = { vec3(0.01, 0.48, 0.53), vec3(0.0, 0.0, 180.0) }
             }
         },
         synchronized = true
     },
     sliftme5 = {
+        name = 'sliftme5',
         label = 'Lift Me 5',
         animation = 'couplepose3pack1anim2_clip',
         dictionary = 'couplepose3pack1anim2@animation',
@@ -619,6 +661,7 @@ shared_emotes = {
         synchronized = true
     },
     sliftme6 = {
+        name = 'sliftme6',
         label = 'Lift Me 6',
         animation = 'couplepose3pack1anim1_clip',
         dictionary = 'couplepose3pack1anim1@animation',
@@ -630,12 +673,13 @@ shared_emotes = {
                 attach = true,
                 bone = 0,
                 otheremote = 'sliftme5',
-                placement = {vec3(-0.212, -0.54, -0.1), vec3(0.0, 0.0, 0.0)}
+                placement = { vec3(-0.212, -0.54, -0.1), vec3(0.0, 0.0, 0.0) }
             }
         },
         synchronized = true
     },
     spback = {
+        name = 'spback',
         label = 'Piggy Back',
         animation = 'mxclip_a',
         dictionary = 'mx@piggypack_a',
@@ -651,6 +695,7 @@ shared_emotes = {
         synchronized = true
     },
     spback2 = {
+        name = 'spback2',
         label = 'Piggy Back 2',
         animation = 'mxanim_b',
         dictionary = 'mx@piggypack_b',
@@ -662,12 +707,13 @@ shared_emotes = {
                 attach = true,
                 bone = 0,
                 otheremote = 'spback',
-                placement = {vec3(0.02, -0.439900, 0.42), vec3(0.0, 0.0, 0.0)}
+                placement = { vec3(0.02, -0.439900, 0.42), vec3(0.0, 0.0, 0.0) }
             }
         },
         synchronized = true
     },
     spback3 = {
+        name = 'spback3',
         label = 'Piggy Back 3',
         animation = 'piggyback_c_player_a',
         dictionary = 'anim@arena@celeb@flat@paired@no_props@',
@@ -683,6 +729,7 @@ shared_emotes = {
         synchronized = true
     },
     spback4 = {
+        name = 'spback4',
         label = 'Piggy Back 4',
         animation = 'piggyback_c_player_b',
         dictionary = 'anim@arena@celeb@flat@paired@no_props@',
@@ -694,12 +741,13 @@ shared_emotes = {
                 attach = true,
                 bone = 0,
                 otheremote = 'spback',
-                placement = {vec3(0.0, -0.7, 0.4), vec3(0.0, 0.0, 0.0)}
+                placement = { vec3(0.0, -0.7, 0.4), vec3(0.0, 0.0, 0.0) }
             }
         },
         synchronized = true
     },
     spunch = {
+        name = 'spunch',
         label = 'Punch',
         animation = 'plyr_takedown_rear_lefthook',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -711,6 +759,7 @@ shared_emotes = {
         synchronized = true
     },
     spunched = {
+        name = 'spunched',
         label = 'Punched',
         animation = 'victim_takedown_front_cross_r',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -722,6 +771,7 @@ shared_emotes = {
         synchronized = true
     },
     sreceiveblowjob = {
+        name = 'sreceiveblowjob',
         label = 'Receive Blowjob',
         animation = 'pimpsex_punter',
         dictionary = 'misscarsteal2pimpsex',
@@ -736,6 +786,7 @@ shared_emotes = {
         synchronized = true
     },
     ssearch = {
+        name = 'ssearch',
         label = 'Search',
         animation = 'police',
         dictionary = 'custom@police',
@@ -750,6 +801,7 @@ shared_emotes = {
         synchronized = true
     },
     ssearch2 = {
+        name = 'ssearch2',
         label = 'Be searched',
         animation = 'a2_pose',
         dictionary = 'missfam5_yoga',
@@ -760,12 +812,13 @@ shared_emotes = {
             shared = {
                 attach = true,
                 otheremote = 'ssearch',
-                placement = {vec3(0.0, 0.5, 0.0), vec3(0.0, 0.0, 0.0)}
+                placement = { vec3(0.0, 0.5, 0.0), vec3(0.0, 0.0, 0.0) }
             }
         },
         synchronized = true
     },
     sslap = {
+        name = 'sslap',
         label = 'Slap',
         animation = 'plyr_takedown_front_slap',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -782,6 +835,7 @@ shared_emotes = {
         synchronized = true
     },
     sslap2 = {
+        name = 'sslap2',
         label = 'Slap 2',
         animation = 'plyr_takedown_front_backslap',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -798,6 +852,7 @@ shared_emotes = {
         synchronized = true
     },
     sslapped = {
+        name = 'sslapped',
         label = 'Slapped',
         animation = 'victim_takedown_front_slap',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -809,6 +864,7 @@ shared_emotes = {
         synchronized = true
     },
     sslapped2 = {
+        name = 'sslapped2',
         label = 'Slapped 2',
         animation = 'victim_takedown_front_backslap',
         dictionary = 'melee@unarmed@streamed_variations',
@@ -820,6 +876,7 @@ shared_emotes = {
         synchronized = true
     },
     sstickup = {
+        name = 'sstickup',
         label = 'Stick Up',
         animation = 'biker_02_stickup_loop',
         dictionary = 'random@countryside_gang_fight',
@@ -835,6 +892,7 @@ shared_emotes = {
         synchronized = true
     },
     sstickupscared = {
+        name = 'sstickupscared',
         label = 'Stickup Scared',
         animation = 'handsup_base',
         dictionary = 'missminuteman_1ig_2',
@@ -850,6 +908,7 @@ shared_emotes = {
         synchronized = true
     },
     sstreetsexfemale = {
+        name = 'sstreetsexfemale',
         label = 'Street Sex Female',
         animation = 'shagloop_hooker',
         dictionary = 'misscarsteal2pimpsex',
@@ -866,6 +925,7 @@ shared_emotes = {
         synchronized = true
     },
     sstreetsexmale = {
+        name = 'sstreetsexmale',
         label = 'Street Sex Male',
         animation = 'shagloop_pimp',
         dictionary = 'misscarsteal2pimpsex',
