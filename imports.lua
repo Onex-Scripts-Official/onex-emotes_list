@@ -7,7 +7,6 @@ local Emotes = {
     dance_emotes = dance_emotes,
     animal_emotes = animal_emotes,
     consumable = consumable,
-    exits = exits,
     prop_emotes = prop_emotes,
     shared_emotes = shared_emotes,
     all_emotes = all_emotes,
@@ -41,7 +40,6 @@ local function LoadEmotesData()
 
     -- Categories to exclude from all_emotes
     local excludeCategories = {
-        exits = true,
         all_emotes = true,
         shared_dances = true
     }
@@ -88,6 +86,14 @@ exports('RetrieveEmotes', function()
         Wait(50)
     until load
     return Emotes
+end)
+
+
+exports('RetrieveExitEmotes', function()
+    repeat
+        Wait(50)
+    until load
+    return exits
 end)
 
 exports('GetScenarioModels', function()
