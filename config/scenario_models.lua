@@ -37,5 +37,7 @@ scenario_models = {
     `prop_tennis_rack_01`,
     `prop_weld_torch`,
     `w_me_gclub`,
-    `p_amb_clipboard_01`
+    `p_amb_clipboard_01`,
+    'p_amb_bagel_01',
+    'prop_amb_beer_bottle'
 }
