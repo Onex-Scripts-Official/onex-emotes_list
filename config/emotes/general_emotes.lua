@@ -2787,6 +2787,7 @@ general = {
         dictionary = 'misscarsteal2peeing',
         options = {
             flags = {
+                loop = true,
                 Stuck = true,
             },
             ptfx = {
