@@ -688,6 +688,7 @@ prop_emotes = {
         dictionary = 'cellphone@female',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -710,6 +711,7 @@ prop_emotes = {
         dictionary = 'cellphone@female',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{

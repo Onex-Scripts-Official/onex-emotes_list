@@ -2787,7 +2787,7 @@ general = {
         dictionary = 'misscarsteal2peeing',
         options = {
             flags = {
-                Stuck = true
+                Stuck = true,
             },
             ptfx = {
                 asset = 'scr_amb_chop',

@@ -5,6 +5,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -203,6 +204,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -314,6 +316,7 @@ consumable = {
         dictionary = 'mp_player_inteat@pnq',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -329,6 +332,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -344,6 +348,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -359,6 +364,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -374,6 +380,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -389,6 +396,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -452,6 +460,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -483,6 +492,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -514,6 +524,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -545,6 +556,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -576,6 +588,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -591,6 +604,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -606,6 +620,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -621,6 +636,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -636,6 +652,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -651,6 +668,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -666,6 +684,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -681,6 +700,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -696,6 +716,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -711,6 +732,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -726,6 +748,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -741,6 +764,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -756,6 +780,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -771,6 +796,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -786,6 +812,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -801,6 +828,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -816,6 +844,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -831,6 +860,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -846,6 +876,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -957,6 +988,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -1104,6 +1136,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -1135,6 +1168,7 @@ consumable = {
         dictionary = 'mp_player_inteat@burger',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -1262,6 +1296,7 @@ consumable = {
         dictionary = 'mp_player_intdrink',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -1277,6 +1312,7 @@ consumable = {
         dictionary = 'mp_player_intdrink',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
@@ -1292,6 +1328,7 @@ consumable = {
         dictionary = 'mp_player_intdrink',
         options = {
             flags = {
+                loop = true,
                 move = true
             },
             props = {{
