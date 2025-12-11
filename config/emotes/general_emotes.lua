@@ -3686,7 +3686,8 @@ general = {
             },
             exitemote = 'offchair'
         },
-        placement = true
+        placement = true,
+        offsetKey = 'sitchair',
     },
     sitchair2 = {
         label = 'Sit Chair 2',
@@ -3698,7 +3699,8 @@ general = {
             },
             exitemote = 'offchair'
         },
-        placement = true
+        placement = true,
+        offsetKey = 'sitchair',
     },
     sitchair3 = {
         label = 'Sit Chair 3',
