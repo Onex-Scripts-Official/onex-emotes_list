@@ -2794,7 +2794,7 @@ general = {
                 asset = 'scr_amb_chop',
                 canhold = true,
                 name = 'ent_anim_dog_peeing',
-                placement = {vec3(-0.05, 0.3, 0.0), vec3(0.0, 90.0, 90.0), 1.0},
+                placement = { vec3(-0.05, 0.3, 0.0), vec3(0.0, 90.0, 90.0), 1.0 },
                 wait = 3000
             }
         },
@@ -2812,7 +2812,7 @@ general = {
                 asset = 'scr_amb_chop',
                 canhold = true,
                 name = 'ent_anim_dog_peeing',
-                placement = {vec3(0.013, 0.103, 0.0), vec3(0.0, 90.0, 90.0), 1.0},
+                placement = { vec3(0.013, 0.103, 0.0), vec3(0.0, 90.0, 90.0), 1.0 },
                 wait = 3000
             }
         },
@@ -3232,8 +3232,8 @@ general = {
     },
     rps = {
         label = 'Rock Paper Scissors',
-        animation = {'rock_clip', 'paper_clip', 'scissors_clip'},
-        dictionary = {'baspel@rock@animation', 'baspel@paper@animation', 'baspel@scissors@animation'}
+        animation = { 'rock_clip', 'paper_clip', 'scissors_clip' },
+        dictionary = { 'baspel@rock@animation', 'baspel@paper@animation', 'baspel@scissors@animation' }
     },
     salute = {
         label = 'Salute',
